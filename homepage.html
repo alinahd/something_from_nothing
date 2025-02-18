@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="homepage.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=STIX+Two+Text:ital,wght@0,400..700;1,400..700&display=swap" rel="stylesheet">
+</head>
+<body>
+  
+  <div class="container">
+    <p id="demo"></p>
+    <div class="frame">
+      <button class="custom-btn btn-1" onclick="location.href='1.html'">Continue</button>
+  </div>
+
+<script>
+  var i = 0;
+  var txt = 'The Yellow<br>Wallpaper'; 
+  var speed = 100;
+  
+  function typeWriter() {
+    if (i < txt.length) {
+      if (txt.charAt(i) === "<") { 
+        document.getElementById("demo").innerHTML += "<br>";
+        i += 4; 
+      } else {
+        document.getElementById("demo").innerHTML += txt.charAt(i);
+        i++;
+      }
+      setTimeout(typeWriter, speed);
+    }
+  }
+
+  window.onload = function() {
+      setTimeout(typeWriter, 1000);
+  };
+</script>
+
+
+
+</body>
+</html>

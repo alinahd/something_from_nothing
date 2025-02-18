@@ -1,0 +1,311 @@
+body {
+    background-color: #e5c77c;
+   
+}
+
+p{
+    font-family: "STIX Two Text", serif;
+    font-size: 18px;
+    text-align: left;
+    color: rgb(146, 9, 9);
+    margin-left: 2%;
+    margin-right: 2%;
+}
+
+.text1 {
+    position: absolute;
+    padding-left: 19%;
+}
+
+.text2 {
+    position: absolute;
+    padding-left: 5.5%;
+}
+
+.text3 {
+    position: absolute;
+    padding-left: 2%;
+}
+
+.text4 {
+    position: absolute;
+    padding-left: 8%;
+}
+
+.text5 {
+    position: absolute;
+    padding-left: 4%;
+}
+
+.text6 { 
+    position: absolute;
+    padding-left: 6%;
+}
+
+.text7 {
+    position: absolute;
+    padding-left: 19%;
+}
+
+.text8 {
+    position: absolute;
+    padding-left: 3%;
+}
+
+.text9 {
+    position: absolute;
+    padding-left: 3%;
+}
+
+.text10 {
+    position: absolute;
+    padding-left: 7%;
+}
+
+.text11 {
+    position: absolute;
+    padding-left: 9%;
+}
+
+.text12 {
+    position: absolute;
+    padding-left: 6%;
+}
+
+.text13 {
+    position: absolute;
+    padding-left: 34%;
+}
+
+.text14 {
+    position: absolute;
+    padding-left: 10%;
+}
+
+.text15 {
+    position: absolute;
+    padding-left: 19%;
+}
+
+.text16 {
+    position: absolute;
+    padding-left: 24%;
+}
+.text17 {
+    position: absolute;
+    padding-left: 30%;
+}
+
+span {
+    display: inline;
+    opacity: 0;
+    filter: blur(4px);
+  }
+  
+  span:nth-child(1) {
+    animation: fade-in 0.8s 0s forwards cubic-bezier(0.11, 0, 0.5, 0);
+  }
+  
+  span:nth-child(2) {
+    animation: fade-in 0.8s 1s forwards cubic-bezier(0.11, 0, 0.5, 0);
+  }
+  
+  span:nth-child(3) {
+    animation: fade-in 0.8s 2s forwards cubic-bezier(0.11, 0, 0.5, 0);
+  }
+  
+  span:nth-child(4) {
+    animation: fade-in 0.8s 3s forwards cubic-bezier(0.11, 0, 0.5, 0);
+    
+  }
+  
+  span:nth-child(5) {
+    animation: fade-in 0.8s 4s forwards cubic-bezier(0.11, 0, 0.5, 0);
+  }
+  
+  span:nth-child(6) {
+    animation: fade-in 0.8s 5s forwards cubic-bezier(0.11, 0, 0.5, 0);
+  }
+  
+  span:nth-child(7) {
+    animation: fade-in 0.8s 6s forwards cubic-bezier(0.11, 0, 0.5, 0);
+  }
+  
+  span:nth-child(8) {
+    animation: fade-in 0.8s 7s forwards cubic-bezier(0.11, 0, 0.5, 0);
+  }
+  
+  span:nth-child(9) {
+    animation: fade-in 0.8s 8s forwards cubic-bezier(0.11, 0, 0.5, 0);
+  }
+  
+  span:nth-child(10) {
+    animation: fade-in 0.8s 9s forwards cubic-bezier(0.11, 0, 0.5, 0);
+  }
+  
+  span:nth-child(11) {
+    animation: fade-in 0.8s 10s forwards cubic-bezier(0.11, 0, 0.5, 0);
+  }
+  
+  span:nth-child(12) {
+    animation: fade-in 0.8s 11s forwards cubic-bezier(0.11, 0, 0.5, 0);
+  }
+  
+  span:nth-child(13) {
+    animation: fade-in 0.8s 12s forwards cubic-bezier(0.11, 0, 0.5, 0);
+  }
+  
+  span:nth-child(14) {
+    animation: fade-in 0.8s 13s forwards cubic-bezier(0.11, 0, 0.5, 0);
+  }
+  
+  span:nth-child(15) {
+    animation: fade-in 0.8s 14s forwards cubic-bezier(0.11, 0, 0.5, 0);
+  }
+  
+  span:nth-child(16) {
+    animation: fade-in 0.8s 15s forwards cubic-bezier(0.11, 0, 0.5, 0);
+  }
+  
+  span:nth-child(17) {
+    animation: fade-in 0.8s 16s forwards cubic-bezier(0.11, 0, 0.5, 0);
+  }
+  
+  @keyframes fade-in {
+    0% {
+        opacity: 0;
+        transform: translateY(10px);
+        filter: blur(4px);
+    }
+    100% {
+      opacity: 1;
+      transform: translateY(0);
+      filter: blur(0);
+    }
+  }
+
+.text1, .text2, .text3, .text4, .text5, .text6, .text7, .text8, .text9, .text10, .text11, .text12, .text13, .text14, .text15, .text16, .text17 {
+    opacity: 0;
+    animation: fade-in-sequence 1s ease-out forwards;
+    color: rgb(146, 9, 9);
+    font-weight: bold;
+} 
+
+.icon{
+    bottom: 10px;
+    right: 10px;
+    width: 50px;
+    height: 50px;
+    object-fit: contain;
+    position: fixed;
+}
+
+@media (max-width: 768px) {
+    p {
+        font-size: 16px;
+        margin-top: 5%;
+        margin-left: 5%;
+        margin-right: 5%;
+        text-align: left;
+    }
+    .icon{
+        bottom: 10px;
+        right: 10px;
+        width: 45px;
+        height: 45px;
+        object-fit: contain;
+        position: fixed;
+    }
+    .text1, .text2, .text3, .text4, .text5, .text6, .text7, .text8, .text9, .text10, .text11, .text12, .text13, .text14, .text15, .text16, .text17 {
+        opacity: 0;
+        animation: fade-in-sequence 1s ease-out forwards;
+        color: rgb(146, 9, 9);
+        font-weight: bold;
+        font-size: 16px;
+        padding-left: 2%;
+    } 
+    .text1 {
+        position: absolute;
+        padding-left: 19%;
+    }
+    
+    .text2 {
+        position: absolute;
+        padding-left: 5.5%;
+    }
+    
+    .text3 {
+        position: absolute;
+        padding-left: 2%;
+    }
+    
+    .text4 {
+        position: absolute;
+        padding-left: 8%;
+    }
+    
+    .text5 {
+        position: absolute;
+        padding-left: 4%;
+    }
+    
+    .text6 { 
+        position: absolute;
+        padding-left: 6%;
+    }
+    
+    .text7 {
+        position: absolute;
+        padding-left: 19%;
+    }
+    
+    .text8 {
+        position: absolute;
+        padding-left: 3%;
+    }
+    
+    .text9 {
+        position: absolute;
+        padding-left: 3%;
+    }
+    
+    .text10 {
+        position: absolute;
+        padding-left: 7%;
+    }
+    
+    .text11 {
+        position: absolute;
+        padding-left: 9%;
+    }
+    
+    .text12 {
+        position: absolute;
+        padding-left: 6%;
+    }
+    
+    .text13 {
+        position: absolute;
+        padding-left: 14%;
+    }
+    
+    .text14 {
+        position: absolute;
+        padding-left: 10%;
+    }
+    
+    .text15 {
+        position: absolute;
+        padding-left: 19%;
+    }
+    
+    .text16 {
+        position: absolute;
+        padding-left: 24%;
+    }
+    .text17 {
+        position: absolute;
+        padding-left: 30%;
+    }
+    
+}
